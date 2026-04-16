@@ -178,8 +178,10 @@ td{
     height: 2vh;
 }
 
-@media (max-width: 1000px){
-
+@media (max-width: 600px){
+body{
+ overflow-x: hidden;
+}
 section{padding: 30px 60px;}
 
 .main h{
@@ -193,12 +195,17 @@ position: relative;
 top: -30vh;
 left:20vh ;
 }
+ nav{
+  display : flex;
+  flex-dirction :column;
+   text-align:center;
+ }
 nav ul a:hover{
 width: 30px;
 height: 30px;}
 .page4{
 padding: 10px;
-gap:20px;}
+gap:10px;}
 nav ul a{
 font-size: 18px;}
 .div2{
@@ -209,6 +216,8 @@ overflow-x: auto;
 
 table{ width: 100%;
     min-width:200px ;
+      display:block;
+      overflow-x:auto;
 }
 
 } 
